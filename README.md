@@ -13,7 +13,7 @@
 - Note text (and the saved time) is automatically loaded when the app goes into the Resume state.If no saved data file is present, the app starts with no text and the current date/time displayed as the Last Update time.
 >Uses: File System, State Saving, Alternate Landscape Layout
 
-## 3. MultiNotes pad:
+## 3. MultiNotes:
 - This app allows the creation and maintenance of multiple notes. Any number of notes are allowed (including no notes at all). Notes are made up of a Title and Note Text.
 - Notes are loaded from and saved to JSON file.
 - JSON file loading happens in an AsyncTask that is started in the onCreate method. Saving happens in the onPause method.
